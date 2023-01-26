@@ -6,14 +6,14 @@ The setup should be installable as easily as possible.
 
 For opam users:
 
-```
-opam switch create . 4.11.1 --no-install
+```sh
+opam switch create . 4.14.1 --no-install
 opam install . --deps-only
 ```
 
 For esy users:
 
-```
+```sh
 esy
 ```
 
@@ -56,7 +56,7 @@ project.
 
 After running the setting up commands, you can check that it works by running:
 
-```
+```sh
 $ dune build
 $ dune exec bin/main.exe
 Hello, World!
@@ -72,6 +72,6 @@ license. Feel free to use this template for your projects and pick the
 license you prefer. It is also totally fine to use it for a closed source
 project.
 
-If you need help selecting a license, the Free Software 
-Foundation provides a [short guide]( https://www.gnu.org/licenses/license-recommendations.html) for 
+If you need help selecting a license, the Free Software
+Foundation provides a [short guide]( https://www.gnu.org/licenses/license-recommendations.html) for
 picking a license.
